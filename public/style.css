@@ -1,0 +1,176 @@
+*{
+    font-family: 'Cairo', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/*                ----------- nav bar ---------------- */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: .7em;
+    background-color: #6d3f28;
+    z-index: 999;
+    direction: rtl;
+}
+
+nav a{
+    text-decoration: none;
+}
+.nav_logo{
+    font-weight: 800;
+    color: #F4A460FF;
+}
+.nav_logo:hover{
+    color: #eee;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0 .5em;
+}
+
+.nav_links li a{
+
+    color: #F4A460FF;
+    transition: all 0.3s ease;
+}
+
+.nav_links li a:hover{
+    color: #eee;
+}
+
+button{
+    padding: .5em 1.5em;
+    background-color: #322525;
+    color: #F4A460FF;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    background-color: #F4A460FF;
+    color: #322525;
+    font-weight: 600;
+}
+/*              -----------  main -----------------*/
+section{
+    padding: 50px 100px ;
+    direction: rtl;
+}
+.main{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: url(images/covermain1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.enMain{
+    direction: ltr;
+}
+.main h1{
+    color: #112540;
+    font-weight: 800;
+}
+
+/*---------  services*/
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.title{
+    color: #6d3f28;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.card{
+
+    /*width: 21.25em;*/
+    box-shadow: 0px 5px 10px rgba(1, 1, 1, 15);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 20px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+}
+.icon img {
+    height: 200px;
+    width: 100px;
+}
+
+.icon  .woodimg{
+    width: 300px;
+}
+.info{
+    margin-top: 1em;
+    text-align: center;
+}
+.icon .otherimg{
+    width: 100%;
+}
+
+/*----------- footer----------------*/
+footer{
+    background-color:#F4A460FF ;
+}
+footer .card{
+    width: 21.25em;
+}
+footer .title{
+    color: #eee;
+}
+footer .content{
+    display: flex;
+    justify-content: space-around;
+
+}
+footer .icon {
+    font-size: 5em;
+    text-align: center; /* align icon to center */
+}
+.info h4 {
+    margin: 1em;
+}
+.info h4 a{
+    text-decoration: none;
+    color: white;
+}
+.info p{
+    color: white;
+}
+.footer-title{
+    margin: 20px 0px 0px 30px;
+}
+.copyfooter{
+    padding: 20px 25px ;
+}
+.copyfooter p{
+   color: #112540;
+    font-size: large;
+}
+.copyfooter a{
+    text-decoration: none;
+    color: #5c0201;
+    font-weight: 700;
+}
+.copyfooter p i{
+    font-size: 2em;
+    margin-right: 3px;
+}
