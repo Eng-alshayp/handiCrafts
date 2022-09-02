@@ -119,6 +119,14 @@ section{
     margin-top: 1em;
     text-align: center;
 }
+
+.infoLink a{
+    text-decoration: none;
+    font-weight: 600;
+}
+.infoLink a:hover{
+    color: #572c04;
+}
 .icon .otherimg{
     width: 100%;
 }
@@ -156,6 +164,5 @@ footer .icon {
 .footer-title{
     margin: 20px 0px 0px 30px;
 }
-
 
 

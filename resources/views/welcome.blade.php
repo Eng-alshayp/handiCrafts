@@ -29,7 +29,11 @@
                     <img src="/images/door.png" alt="door">
                 </div>
                 <div class="info">
-                <h3>أنشاء أبواب خشبية بأحدث الموديلات</h3>
+                <h3>أبواب خشبية بأحدث الموديلات</h3>
+
+                </div>
+                <div class="infoLink">
+                    <a  href="/doors">صفحة الأبواب</a>
                 </div>
             </div>
                         {{--            --------- card 2--------}}
@@ -41,6 +45,9 @@
                 <div class="info">
                     <h3>أنشاء مطابخ بأحدث الموديلات</h3>
                 </div>
+                <div class="infoLink">
+                    <a href="/kitchens">صفحة المطابخ</a>
+                </div>
             </div>
             {{--            --------- card 3--------}}
 
@@ -51,6 +58,9 @@
                 <div class="info">
                     <h3>أنشاء أثاث المنازل حسب الطلب</h3>
                 </div>
+                <div class="infoLink">
+                    <a  href="/otherwoods">صفحة الديكورات</a>
+                </div>
             </div>
             {{--            --------- card 4--------}}
 
@@ -60,6 +70,9 @@
                 </div>
                 <div class="info">
                     <h3>محلنا الجديد لبيع القطع والأثاث الخشبية وغيرها من مستلزمات المنازل</h3>
+                </div>
+                <div class="infoLink">
+                    <a  href="/woods">صفحة المحل الجديد</a>
                 </div>
             </div>
         </div>
