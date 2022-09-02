@@ -12,7 +12,6 @@ nav{
     justify-content: space-between;
     padding: .7em;
     background-color: #6d3f28;
-    z-index: 999;
     direction: rtl;
 }
 
@@ -129,7 +128,8 @@ footer{
     background-color:#F4A460FF ;
 }
 footer .card{
-    width: 21.25em;
+    width: 15.25em;
+
 }
 footer .title{
     color: #eee;
@@ -156,19 +156,6 @@ footer .icon {
 .footer-title{
     margin: 20px 0px 0px 30px;
 }
-.copyfooter{
-    padding: 20px 25px ;
-}
-.copyfooter p{
-   color: #112540;
-    font-size: large;
-}
-.copyfooter a{
-    text-decoration: none;
-    color: #5c0201;
-    font-weight: 700;
-}
-.copyfooter p i{
-    font-size: 2em;
-    margin-right: 3px;
-}
+
+
+

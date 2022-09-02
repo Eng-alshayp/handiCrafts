@@ -29,7 +29,7 @@
     </nav>
 
 
-        @yield('header')
+        @yield('body')
 </header>
 
     <footer id="contact">
@@ -60,10 +60,6 @@
                     <h4><a target="_blank" href="https://www.facebook.com/housainwetti/">وتي للديكور</a></h4>
                 </div>
             </div>
-        </div>
-        <br>
-        <div class="copyfooter">
-            <p class="footer-title"><i class="fa-solid fa-user-tie"></i> Copyrights @<span><a target="_blank" href="https://www.facebook.com/jamilshayp">Jamil Shayp</a></span></p>
         </div>
 
     </footer>

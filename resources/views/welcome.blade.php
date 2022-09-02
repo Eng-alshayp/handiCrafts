@@ -4,7 +4,7 @@
     witty for disegn
 @endsection
 
-@section('header')
+@section('body')
     <section class="main">
         <div>
         <h1>وتي للديكور</h1>
