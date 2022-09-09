@@ -13,7 +13,8 @@
 <!--   font awesom & css link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-</head>
+
+   </head>
 <body>
 <header>
 
@@ -23,7 +24,7 @@
             <li><a href="/doors">أبواب</a></li>
             <li><a href="/kitchens">مطابخ</a></li>
             <li><a href="/woods">خشبيات</a></li>
-            <li><a href="/otherwoods">المزيد</a></li>
+
         </ul>
         <a class="nav_contact" href="#contact"><button>للتواصل معنا</button></a>
     </nav>

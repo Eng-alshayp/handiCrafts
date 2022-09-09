@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\DoorController;
+use App\Http\Controllers\KitchensController;
+use App\Http\Controllers\WoodController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -17,9 +20,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+//
+//Route::get('/{slug}', function ($slug) {
+//    return view($slug);
+//});
 
-Route::get('/{slug}', function ($slug) {
-    return view($slug);
-});
-
+Route::resource('doors',DoorController::class);
+Route::resource('kitchens',KitchensController::class);
+Route::resource('woods',WoodController::class);
 

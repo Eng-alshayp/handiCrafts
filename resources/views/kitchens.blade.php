@@ -9,57 +9,23 @@
         <h1 class="titlePages">صفحة المطابخ</h1>
 
         <div class="content">
+
             {{--            --------- card 1--------}}
-            <div class="card">
-                <div class="icon">
-                    <img src="/images/door.png" alt="door">
+            @foreach($kitchens as $kitchen)
+                <div class="card">
+                    <div class="icon">
+                        <img src="{{asset('img/'.$kitchen->path)}}" alt="kitchen">
+                    </div>
+                    <div class="info">
+                        <h3>{{$kitchen->title}}</h3>
+                    </div>
+                    <div class="infoLink">
+                        <a href="{{route('kitchens.show',$kitchen->id)}}">عرض التفاصيل</a>
+
+                    </div>
                 </div>
-                <div class="info">
-                    <h3>أنشاء أبواب خشبية بأحدث الموديلات</h3>
-                </div>
-            </div>
-            {{--            --------- card 1--------}}
-            <div class="card">
-                <div class="icon">
-                    <img src="/images/door.png" alt="door">
-                </div>
-                <div class="info">
-                    <h3>أنشاء أبواب خشبية بأحدث الموديلات</h3>
-                </div>
-            </div> {{--            --------- card 1--------}}
-            <div class="card">
-                <div class="icon">
-                    <img src="/images/door.png" alt="door">
-                </div>
-                <div class="info">
-                    <h3>أنشاء أبواب خشبية بأحدث الموديلات</h3>
-                </div>
-            </div> {{--            --------- card 1--------}}
-            <div class="card">
-                <div class="icon">
-                    <img src="/images/door.png" alt="door">
-                </div>
-                <div class="info">
-                    <h3>أنشاء أبواب خشبية بأحدث الموديلات</h3>
-                </div>
-            </div>
-            {{--            --------- card 1--------}}
-            <div class="card">
-                <div class="icon">
-                    <img src="/images/door.png" alt="door">
-                </div>
-                <div class="info">
-                    <h3>أنشاء أبواب خشبية بأحدث الموديلات</h3>
-                </div>
-            </div>   {{--            --------- card 1--------}}
-            <div class="card">
-                <div class="icon">
-                    <img src="/images/door.png" alt="door">
-                </div>
-                <div class="info">
-                    <h3>أنشاء أبواب خشبية بأحدث الموديلات</h3>
-                </div>
-            </div>
+            @endforeach
+        </div>
     </section>
 
 

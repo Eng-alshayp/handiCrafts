@@ -9,57 +9,23 @@
         <h1 class="titlePages">صفحة الأبواب</h1>
 
         <div class="content">
-            {{--            --------- card 1--------}}
+
+              {{--            --------- card 1--------}}
+            @foreach($doors as $door)
             <div class="card">
                 <div class="icon">
-                    <img src="/images/door.png" alt="door">
+                    <img src="{{asset('img/'.$door->path)}}" alt="door">
                 </div>
                 <div class="info">
-                    <h3>أنشاء أبواب خشبية بأحدث الموديلات</h3>
+                    <h3>{{$door->title}}</h3>
+                </div>
+                <div class="infoLink">
+                    <a href="{{route('doors.show',$door->id)}}">عرض التفاصيل</a>
+
                 </div>
             </div>
-            {{--            --------- card 1--------}}
-            <div class="card">
-                <div class="icon">
-                    <img src="/images/door.png" alt="door">
-                </div>
-                <div class="info">
-                    <h3>أنشاء أبواب خشبية بأحدث الموديلات</h3>
-                </div>
-            </div> {{--            --------- card 1--------}}
-            <div class="card">
-                <div class="icon">
-                    <img src="/images/door.png" alt="door">
-                </div>
-                <div class="info">
-                    <h3>أنشاء أبواب خشبية بأحدث الموديلات</h3>
-                </div>
-            </div> {{--            --------- card 1--------}}
-            <div class="card">
-                <div class="icon">
-                    <img src="/images/door.png" alt="door">
-                </div>
-                <div class="info">
-                    <h3>أنشاء أبواب خشبية بأحدث الموديلات</h3>
-                </div>
-            </div>
-            {{--            --------- card 1--------}}
-            <div class="card">
-                <div class="icon">
-                    <img src="/images/door.png" alt="door">
-                </div>
-                <div class="info">
-                    <h3>أنشاء أبواب خشبية بأحدث الموديلات</h3>
-                </div>
-            </div>   {{--            --------- card 1--------}}
-            <div class="card">
-                <div class="icon">
-                    <img src="/images/door.png" alt="door">
-                </div>
-                <div class="info">
-                    <h3>أنشاء أبواب خشبية بأحدث الموديلات</h3>
-                </div>
-            </div>
+            @endforeach
+        </div>
     </section>
 
 

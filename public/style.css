@@ -108,8 +108,8 @@ section{
     justify-content: center;
 }
 .icon img {
-    height: 200px;
-    width: 100px;
+    height: 300px;
+    width: 100%;
 }
 
 .icon  .woodimg{
@@ -134,6 +134,7 @@ section{
 /*----------- footer----------------*/
 footer{
     background-color:#F4A460FF ;
+
 }
 footer .card{
     width: 15.25em;
@@ -164,5 +165,13 @@ footer .icon {
 .footer-title{
     margin: 20px 0px 0px 30px;
 }
+
+/*---------------------------------------  details pages ---------*/
+.goBack{
+    text-decoration: none;
+}
+
+
+
 
 

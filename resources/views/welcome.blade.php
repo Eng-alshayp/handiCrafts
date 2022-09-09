@@ -49,27 +49,15 @@
                     <a href="/kitchens">صفحة المطابخ</a>
                 </div>
             </div>
-            {{--            --------- card 3--------}}
 
-            <div class="card">
-                <div class="icon">
-                    <img class="woodimg" src="/images/table.jpg" alt="table">
-                </div>
-                <div class="info">
-                    <h3>أنشاء أثاث المنازل حسب الطلب</h3>
-                </div>
-                <div class="infoLink">
-                    <a  href="/otherwoods">صفحة الديكورات</a>
-                </div>
-            </div>
             {{--            --------- card 4--------}}
-
-            <div class="card" style="flex-grow: 3;">
+{{--            style="flex-grow: 3;"--}}
+            <div class="card" >
                 <div class="icon">
                     <img class="otherimg" src="/images/otherwood.jpg" alt="table">
                 </div>
                 <div class="info">
-                    <h3>محلنا الجديد لبيع القطع والأثاث الخشبية وغيرها من مستلزمات المنازل</h3>
+                    <h3>محلنا الجديد لبيع الأثاث الخشبية وغيرها من مستلزمات المنازل</h3>
                 </div>
                 <div class="infoLink">
                     <a  href="/woods">صفحة المحل الجديد</a>
