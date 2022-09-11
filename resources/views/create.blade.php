@@ -1,42 +1,28 @@
 @extends('layouts.layout')
 
 @section('title')
-    witty for disegn
+    create
 @endsection
 
 @section('body')
-    <section class="main">
-        <div>
-        <h1>وتي للديكور</h1>
-        <h2>لتجارة وصناعة الأخشاب المنزلية </h2>
-
-        </div>
-
-        <div class="enMain">
-            <h1>Witty For Design</h1>
-            <h2>For Trading & Handicrafts Industry</h2>
-        </div>
-
-    </section>
-
     <section class="cards">
 
-        <h2 class="title">الخدمات </h2>
+        <h2 class="title">اختر أحد الأقسام </h2>
         <div class="content">
-                        {{--            --------- card 1--------}}
+            {{--            --------- card 1--------}}
             <div class="card">
                 <div class="icon">
                     <img src="/images/door.png" alt="door">
                 </div>
                 <div class="info">
-                <h3>أبواب خشبية بأحدث الموديلات</h3>
+                    <h3>أبواب خشبية بأحدث الموديلات</h3>
 
                 </div>
                 <div class="infoLink">
-                    <a  href="/doors">صفحة الأبواب</a>
+                    <a  href="/doors/create">صفحة أنشاء الأبواب</a>
                 </div>
             </div>
-                        {{--            --------- card 2--------}}
+            {{--            --------- card 2--------}}
 
             <div class="card">
                 <div class="icon">
@@ -46,28 +32,24 @@
                     <h3>أنشاء مطابخ بأحدث الموديلات</h3>
                 </div>
                 <div class="infoLink">
-                    <a href="/kitchens">صفحة المطابخ</a>
+                    <a href="/kitchens/create">صفحة أنشاء المطابخ</a>
                 </div>
             </div>
 
             {{--            --------- card 3--------}}
-{{--            style="flex-grow: 3;"--}}
+
             <div class="card" >
                 <div class="icon">
                     <img class="otherimg" src="/images/otherwood.jpg" alt="table">
                 </div>
                 <div class="info">
-                    <h3>محلنا الجديد لبيع الأثاث الخشبية وغيرها من مستلزمات المنازل</h3>
+                    <h3>صفحة خشبيات</h3>
                 </div>
                 <div class="infoLink">
-                    <a  href="/woods">صفحة المحل الجديد</a>
+                    <a  href="/woods/create">صفحة أنشاء خشبيات </a>
                 </div>
             </div>
         </div>
     </section>
 
-
-
-
 @endsection
-

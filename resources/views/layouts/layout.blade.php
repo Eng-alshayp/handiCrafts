@@ -26,7 +26,11 @@
             <li><a href="/woods">خشبيات</a></li>
 
         </ul>
-        <a class="nav_contact" href="#contact"><button>للتواصل معنا</button></a>
+        <div>
+            <a class="nav_contact" href="#contact"><button>للتواصل معنا</button></a>
+            <a class="nav_contact" href="/create"><button>أنشاء</button></a>
+        </div>
+
     </nav>
 
 

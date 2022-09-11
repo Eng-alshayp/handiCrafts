@@ -28,4 +28,6 @@ Route::get('/', function () {
 Route::resource('doors',DoorController::class);
 Route::resource('kitchens',KitchensController::class);
 Route::resource('woods',WoodController::class);
-
+Route::get('/create',function (){
+    return view('create');
+});
